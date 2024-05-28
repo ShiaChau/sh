@@ -1,0 +1,11 @@
+graph LR
+    A[Marketing] --> B(Tạo nội dung thu hút leads)
+    B --> C{Phân loại leads}
+    C -- Leads tiềm năng cao --> D(Chuyển giao cho Sales)
+    D --> E[Sales]
+    E --> F(Tiếp cận & tư vấn)
+    F --> G{Kết quả}
+    G -- Thành công --> H(Ký hợp đồng)
+    G -- Không thành công --> I(Ghi nhận & phân tích nguyên nhân)
+    I --> J(Phản hồi cho Marketing)
+    J --> A
